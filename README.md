@@ -1,6 +1,40 @@
-# Credit-Card-Fraud-Detection
-Fraud Detection model based on anonymized credit card transactions
+# Credit Card Fraud Detection 
 
-It is important that credit card companies are able to recognize fraudulent credit card transactions so that customers are not charged for items that they did not purchase.
+## Problem Statement 
 
-The dataset contains transactions made by credit cards in September 2013 by european cardholders. This dataset presents transactions that occurred in two days, where we have 492 frauds out of 284,807 transactions. The dataset is highly unbalanced, the positive class (frauds) account for 0.172% of all transactions.
+This project aims to predict fraudulent credit card transactions using machine learning models.
+
+The dataset, sourced from the [Kaggle Website](https://www.kaggle.com/mlg-ulb/creditcardfraud), contains 284,807 transactions, of which 492 are identified as fraudulent. Given the highly imbalanced nature of the dataset, appropriate handling is required before model building.
+
+## Business Problem Overview
+
+For many banks, retaining highly profitable customers is a primary business objective. However, banking fraud poses a significant threat to this goal. Fraud leads to substantial financial losses and damages trust and credibility for both banks and customers.
+
+The [Nilson Report](https://nilsonreport.com/upload/content_promo/The_Nilson_Report_Issue_1164.pdf) estimates that banking fraud would amount to $30 billion worldwide by 2020. As digital payment channels grow, so do fraudulent transactions, presenting new challenges.
+
+In the banking sector, employing machine learning for credit card fraud detection is not just a trend but a critical necessity. These institutions benefit from machine learning by reducing the need for manual reviews, minimizing costly chargebacks and fees, and preventing legitimate transaction denials.
+
+## Understanding and Defining Fraud
+
+Credit card fraud involves dishonest actions and behaviors aimed at obtaining information without the account holder's authorization for financial gain. Among various fraud methods, skimming, which involves duplicating information from the card's magnetic strip, is the most common. Other methods include:
+
+- Manipulation or alteration of genuine cards
+- Creation of counterfeit cards
+- Use of stolen or lost credit cards
+- Fraudulent telemarketing activities
+
+## Data Dictionary
+
+The dataset can be downloaded using this [link](https://www.kaggle.com/mlg-ulb/creditcardfraud).
+
+This dataset includes credit card transactions made by European cardholders over two days in September 2013. Out of 284,807 transactions, 492 are fraudulent. The dataset is highly unbalanced, with fraudulent transactions accounting for 0.172% of the total. To maintain confidentiality, Principal Component Analysis (PCA) has been applied. Besides 'time' and 'amount', all other features (V1 to V28) are PCA-derived components. The 'time' feature indicates the seconds elapsed between the first and subsequent transactions. The 'amount' feature represents the transaction amount. The 'class' feature is the target variable, where 1 indicates fraud and 0 indicates non-fraud.
+
+## Project Pipeline
+
+The project pipeline can be summarized in the following steps:
+
+- **Data Understanding:** Load the data and understand the features present. This will help in selecting the features for the final model.
+- **Exploratory Data Analysis (EDA):** Perform univariate and bivariate analyses, followed by feature transformations if necessary. Given that Gaussian variables are used, Z-scaling may not be required. However, check for any skewness in the data and address it if necessary.
+- **Train/Test Split:** Perform a train/test split to assess model performance on unseen data. Use k-fold cross-validation, choosing an appropriate k value to ensure the minority class is represented in the test folds.
+- **Model Building/Hyperparameter Tuning:** Try different models and fine-tune their hyperparameters to achieve desired performance. Explore various sampling techniques to improve the model.
+- **Model Evaluation:** Evaluate the models using appropriate metrics. Since the data is imbalanced, it is crucial to accurately identify fraudulent transactions. Choose an evaluation metric that reflects this business objective.
