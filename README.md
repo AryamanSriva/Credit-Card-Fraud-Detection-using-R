@@ -4,14 +4,6 @@ This project aims to predict fraudulent credit card transactions using ML
 
 The dataset contains 284,807 transactions, of which 492 are identified as fraudulent. Given the highly imbalanced nature of the dataset, appropriate handling is required before model building.
 
-## Business Problem Overview
-
-For many banks, retaining highly profitable customers is a primary business objective. However, banking fraud poses a significant threat to this goal. Fraud leads to substantial financial losses and damages trust and credibility for both banks and customers.
-
-The [Nilson Report](https://nilsonreport.com/upload/content_promo/The_Nilson_Report_Issue_1164.pdf) estimates that banking fraud would amount to $30 billion worldwide by 2020. As digital payment channels grow, so do fraudulent transactions, presenting new challenges.
-
-In the banking sector, employing machine learning for credit card fraud detection is not just a trend but a critical necessity. These institutions benefit from machine learning by reducing the need for manual reviews, minimizing costly chargebacks and fees and preventing legitimate transaction denials.
-
 ## Understanding and Defining Fraud
 
 Credit card fraud involves dishonest actions and behaviors aimed at obtaining information without the account holder's authorization for financial gain. Among various fraud methods, skimming, which involves duplicating information from the card's magnetic strip, is the most common. Other methods include:
