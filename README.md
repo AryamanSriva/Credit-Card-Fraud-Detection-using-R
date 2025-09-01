@@ -10,7 +10,7 @@ For many banks, retaining highly profitable customers is a primary business obje
 
 The [Nilson Report](https://nilsonreport.com/upload/content_promo/The_Nilson_Report_Issue_1164.pdf) estimates that banking fraud would amount to $30 billion worldwide by 2020. As digital payment channels grow, so do fraudulent transactions, presenting new challenges.
 
-In the banking sector, employing machine learning for credit card fraud detection is not just a trend but a critical necessity. These institutions benefit from machine learning by reducing the need for manual reviews, minimizing costly chargebacks and fees, and preventing legitimate transaction denials.
+In the banking sector, employing machine learning for credit card fraud detection is not just a trend but a critical necessity. These institutions benefit from machine learning by reducing the need for manual reviews, minimizing costly chargebacks and fees and preventing legitimate transaction denials.
 
 ## Understanding and Defining Fraud
 
