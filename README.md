@@ -6,7 +6,7 @@ The dataset contains 284,807 transactions, of which 492 are identified as fraudu
 
 ## Understanding and Defining Fraud
 
-Credit card fraud involves dishonest actions and behaviors aimed at obtaining information without the account holder's authorization for financial gain. Among various fraud methods, skimming, which involves duplicating information from the card's magnetic strip, is the most common. Other methods include:
+Credit card fraud involves dishonest actions and behaviors aimed at obtaining information without the account holder's authorization for financial gain. Among various fraud methods skimming which involves duplicating information from the card's magnetic strip is the most common. Other methods include:
 
 - Manipulation or alteration of genuine cards
 - Creation of counterfeit cards
