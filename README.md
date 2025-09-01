@@ -17,7 +17,7 @@ Credit card fraud involves dishonest actions and behaviors aimed at obtaining in
 
 The dataset can be downloaded using this [link](https://www.kaggle.com/mlg-ulb/creditcardfraud).
 
-This dataset includes credit card transactions made by European cardholders over two days in September 2013. Out of 284,807 transactions, 492 are fraudulent. The dataset is highly unbalanced, with fraudulent transactions accounting for 0.172% of the total. To maintain confidentiality, Principal Component Analysis (PCA) has been applied. Besides 'time' and 'amount', all other features (V1 to V28) are PCA-derived components. The 'time' feature indicates the seconds elapsed between the first and subsequent transactions. The 'amount' feature represents the transaction amount. The 'class' feature is the target variable, where 1 indicates fraud and 0 indicates non-fraud.
+This dataset includes credit card transactions made by European cardholders over two days in September 2013. Out of 284,807 transactions, 492 are fraudulent. The dataset is highly unbalanced with fraudulent transactions accounting for 0.172% of the total. To maintain confidentiality, Principal Component Analysis (PCA) has been applied. Besides 'time' and 'amount', all other features (V1 to V28) are PCA-derived components. The 'time' feature indicates the seconds elapsed between the first and subsequent transactions. The 'amount' feature represents the transaction amount. The 'class' feature is the target variable, where 1 indicates fraud and 0 indicates non-fraud.
 
 ## Project Pipeline
 
