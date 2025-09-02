@@ -2,7 +2,7 @@
 
 This project aims to predict fraudulent credit card transactions using ML
 
-The dataset contains 284,807 transactions, of which 492 are identified as fraudulent. Given the highly imbalanced nature of the dataset, appropriate handling is required before model building.
+The dataset contains 284,807 transactions out of which 492 are identified as fraudulent. Given the highly imbalanced nature of the dataset appropriate handling is required before model building.
 
 ## Understanding and Defining Fraud
 
