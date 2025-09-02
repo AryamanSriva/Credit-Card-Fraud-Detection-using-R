@@ -4,15 +4,6 @@ This project aims to predict fraudulent credit card transactions using ML.
 
 The dataset contains 284,807 transactions out of which 492 are identified as fraudulent. Given the highly imbalanced nature of the dataset appropriate handling is required before model building.
 
-## Understanding and Defining Fraud
-
-Credit card fraud involves dishonest actions and behaviors aimed at obtaining information without the account holder's authorization for financial gain. Among various fraud methods skimming which involves duplicating information from the card's magnetic strip is the most common. Other methods include:
-
-- Manipulation or alteration of genuine cards
-- Creation of counterfeit cards
-- Use of stolen or lost credit cards
-- Fraudulent telemarketing activities
-
 ## Data Dictionary
 
 The dataset can be downloaded using this [link](https://www.kaggle.com/mlg-ulb/creditcardfraud).
